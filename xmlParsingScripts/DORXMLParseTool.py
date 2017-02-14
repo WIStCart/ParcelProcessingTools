@@ -235,6 +235,16 @@ for fname in glob.glob(path):
                     if  tempAcres > 0:
                         COPclasses.append(COPdomains[f])
                         inferredAcreage += tempAcres
+                    else:
+                        landV = propertyClass.find(nsTag('LandValue'))
+                        tempLandV = float(landV.text)
+                        if  tempLandV > 0:
+                            COPclasses.append(COPdomains[f])
+                        else:
+                            impV = propertyClass.find(nsTag('ImprovementsValue'))
+                            tempImpV = float(impV.text)
+                            if  tempImpV > 0:
+                                COPclasses.append(COPdomains[f])
 
             #Go through alt domains
             for f in range(len(altTaxCOPdomains)):
