@@ -1,0 +1,65 @@
+<AddressCollection>
+  <AddressString><AddressNumber>431</AddressNumber> <StreetName>Marietta</StreetName> <StreetNamePostType>St</StreetNamePostType> <StreetNamePostDirectional>NW</StreetNamePostDirectional> <OccupancyType>Fl.</OccupancyType> <OccupancyIdentifier>3</OccupancyIdentifier></AddressString>
+  <AddressString><AddressNumber>1234</AddressNumber> <StreetNamePreDirectional>West</StreetNamePreDirectional> <StreetNamePreType>U.S.</StreetNamePreType> <StreetNamePreType>Hwy</StreetNamePreType> <StreetName>50</StreetName></AddressString>
+  <AddressString><AddressNumber>1234</AddressNumber> <StreetNamePreDirectional>S</StreetNamePreDirectional> <StreetName>Martin</StreetName> <StreetName>Luther</StreetName> <StreetName>King</StreetName> <StreetNamePostType>Dr</StreetNamePostType> <PlaceName>Chicago,</PlaceName> <StateName>IL</StateName> <ZipCode>60637</ZipCode></AddressString>
+  <AddressString><OccupancyType>Apt</OccupancyType> <OccupancyIdentifier>1B</OccupancyIdentifier> <AddressNumber>626</AddressNumber> <StreetNamePreDirectional>E</StreetNamePreDirectional> <StreetName>Kilbourn</StreetName> <StreetNamePostType>Ave</StreetNamePostType> <PlaceName>Milwaukee,</PlaceName> <StateName>WI</StateName> <ZipCode>53202</ZipCode></AddressString>
+  <AddressString><USPSBoxType>P.O.</USPSBoxType> <USPSBoxType>Box</USPSBoxType> <USPSBoxID>123456</USPSBoxID></AddressString>
+  <AddressString><AddressNumber>N165</AddressNumber> <AddressNumber>W2123</AddressNumber> <StreetName>Tartan</StreetName> <StreetNamePostType>Ct</StreetNamePostType> <PlaceName>Jackson,</PlaceName> <StateName>WI</StateName> <ZipCode>53037</ZipCode></AddressString>
+  <AddressString><USPSBoxType>Box</USPSBoxType> <USPSBoxID>123456</USPSBoxID></AddressString>
+  <AddressString><AddressNumber>1234</AddressNumber> <StreetNamePreDirectional>W</StreetNamePreDirectional> <StreetNamePreType>US</StreetNamePreType> <StreetNamePreType>Highway</StreetNamePreType> <StreetName>50</StreetName></AddressString>
+  <AddressString><AddressNumber>1234</AddressNumber> <StreetNamePreDirectional>West</StreetNamePreDirectional> <StreetNamePreType>U.S.</StreetNamePreType> <StreetNamePreType>Highway</StreetNamePreType> <StreetName>50</StreetName></AddressString>
+  <AddressString><AddressNumber>2002</AddressNumber> <StreetNamePreType>FM</StreetNamePreType> <StreetName>544</StreetName> <PlaceName>Wylie,</PlaceName> <StateName>TX</StateName> <ZipCode>75098</ZipCode></AddressString>
+  <AddressString><AddressNumber>519</AddressNumber> <StreetNamePreType>PR</StreetNamePreType> <StreetName>462</StreetName> <PlaceName>Leonard,</PlaceName> <StateName>TX</StateName> <ZipCode>75452</ZipCode></AddressString>
+  <AddressString><AddressNumber>431</AddressNumber> <StreetName>Marietta</StreetName> <StreetNamePostType>St</StreetNamePostType> <StreetNamePostDirectional>NW</StreetNamePostDirectional> <OccupancyType>Room</OccupancyType> <OccupancyIdentifier>303</OccupancyIdentifier></AddressString>
+  <AddressString><AddressNumber>20</AddressNumber> <StreetName>Benton</StreetName> <StreetNamePostType>Pl</StreetNamePostType> <PlaceName>St</PlaceName> <PlaceName>Louis,</PlaceName> <StateName>MO</StateName> <ZipCode>63104</ZipCode></AddressString>
+  <AddressString><AddressNumber>431</AddressNumber> <StreetName>Marietta</StreetName> <StreetNamePostType>St</StreetNamePostType> <StreetNamePostDirectional>NW</StreetNamePostDirectional> <OccupancyType>Floor</OccupancyType> <OccupancyIdentifier>3</OccupancyIdentifier></AddressString>
+  <AddressString><AddressNumber>271</AddressNumber> <StreetName>spring</StreetName> <StreetNamePostType>st</StreetNamePostType> <StreetNamePostDirectional>nw</StreetNamePostDirectional> <Recipient>attn:</Recipient> <Recipient>regus</Recipient></AddressString>
+  <AddressString><AddressNumber>120</AddressNumber> <StreetNamePreDirectional>N.</StreetNamePreDirectional> <StreetName>Michigan</StreetName> <StreetNamePostType>Ave.</StreetNamePostType> <OccupancyType>Ste</OccupancyType> <OccupancyIdentifier>1605,</OccupancyIdentifier> <PlaceName>Chicago,</PlaceName> <StateName>IL</StateName> <ZipCode>60601</ZipCode></AddressString>
+  <AddressString><AddressNumber>1234</AddressNumber> <StreetNamePreDirectional>W</StreetNamePreDirectional> <StreetNamePreType>US</StreetNamePreType> <StreetNamePreType>Hwy</StreetNamePreType> <StreetName>50</StreetName></AddressString>
+  <AddressString><AddressNumber>1234</AddressNumber> <StreetNamePreDirectional>West</StreetNamePreDirectional> <StreetNamePreType>US</StreetNamePreType> <StreetNamePreType>Hwy</StreetNamePreType> <StreetName>50</StreetName></AddressString>
+  <AddressString><AddressNumber>1234</AddressNumber> <StreetNamePreDirectional>West</StreetNamePreDirectional> <StreetNamePreType>US</StreetNamePreType> <StreetNamePreType>Highway</StreetNamePreType> <StreetName>50</StreetName></AddressString>
+  <AddressString><USPSBoxType>Box</USPSBoxType> <USPSBoxID>#</USPSBoxID> <USPSBoxID>123456</USPSBoxID></AddressString>
+  <AddressString><AddressNumber>431</AddressNumber> <StreetName>Marietta</StreetName> <StreetNamePostType>St</StreetNamePostType> <StreetNamePostDirectional>NW</StreetNamePostDirectional> <OccupancyIdentifier>3rd</OccupancyIdentifier> <OccupancyType>Floor</OccupancyType></AddressString>
+  <AddressString><AddressNumber>232</AddressNumber> <StreetName>Dubei</StreetName> <StreetNamePostType>Ct</StreetNamePostType> <PlaceName>Salt</PlaceName> <PlaceName>Lake</PlaceName> <PlaceName>City</PlaceName> <StateName>UT</StateName> <ZipCode>84111</ZipCode></AddressString>
+  <AddressString><AddressNumber>123</AddressNumber> <StreetNamePreDirectional>W</StreetNamePreDirectional> <StreetName>Hastings</StreetName> <StreetNamePostType>St</StreetNamePostType> <ZipCode>123456789</ZipCode></AddressString>
+  <AddressString><USPSBoxType>PO</USPSBoxType> <USPSBoxType>Box</USPSBoxType> <USPSBoxID>123456</USPSBoxID></AddressString>
+  <AddressString><Recipient>CORPORATE</Recipient> <Recipient>TRAVEL
+</Recipient> <Recipient>MICHAEL</Recipient> <Recipient>A</Recipient> <Recipient>CASOLO
+</Recipient> <Recipient>ATTN</Recipient> <Recipient>SHELIA</Recipient> <Recipient>LEWIS
+</Recipient> <AddressNumber>77</AddressNumber> <StreetNamePreDirectional>w</StreetNamePreDirectional> <StreetName>WACKER</StreetName> <StreetNamePostType>DR</StreetNamePostType> <OccupancyType>SUITE</OccupancyType> <OccupancyIdentifier>1800
+</OccupancyIdentifier> <PlaceName>CHICAGO</PlaceName> <StateName>IL</StateName> <ZipCode>60601</ZipCode></AddressString>
+  <AddressString><Recipient>MARTIN</Recipient> <Recipient>DAVIS
+</Recipient> <Recipient>SOS</Recipient> <Recipient>SECURITY</Recipient> <Recipient>IL</Recipient> <Recipient>CHICAGO</Recipient> <Recipient>BRANCH
+</Recipient> <AddressNumber>30</AddressNumber> <StreetNamePreDirectional>S</StreetNamePreDirectional> <StreetName>WACKER</StreetName> <StreetNamePostType>DR
+</StreetNamePostType> <OccupancyType>STE</OccupancyType> <OccupancyIdentifier>2200
+</OccupancyIdentifier> <PlaceName>CHICAGO</PlaceName> <StateName>IL</StateName> <ZipCode>60606</ZipCode></AddressString>
+  <AddressString><Recipient>Zendesk
+
+</Recipient> <Recipient>Christian</Recipient> <Recipient>Golding
+</Recipient> <AddressNumber>1019</AddressNumber> <StreetName>Market</StreetName> <StreetNamePostType>St
+
+</StreetNamePostType> <PlaceName>San</PlaceName> <PlaceName>Francisco</PlaceName> <StateName>CA</StateName> <ZipCode>94103</ZipCode></AddressString>
+  <AddressString><Recipient>LEXI</Recipient> <Recipient>HAGENSON
+</Recipient> <AddressNumber>860</AddressNumber> <StreetNamePreDirectional>w</StreetNamePreDirectional> <StreetName>Blackhawk</StreetName> <OccupancyIdentifier>305
+</OccupancyIdentifier> <PlaceName>CHICAGO</PlaceName> <StateName>ll.</StateName> <ZipCode>60642&#8212;2534</ZipCode></AddressString>
+  <AddressString><Recipient>Erin</Recipient> <Recipient>Johnson
+</Recipient> <Recipient>c/o</Recipient> <Recipient>DTZ
+</Recipient> <OccupancyType>Suite</OccupancyType> <OccupancyIdentifier>1800
+</OccupancyIdentifier> <AddressNumber>77</AddressNumber> <StreetNamePreDirectional>W</StreetNamePreDirectional> <StreetName>Wacker</StreetName> <StreetNamePostType>Dr
+</StreetNamePostType> <PlaceName>Chicago,</PlaceName> <StateName>IL</StateName> <ZipCode>606001</ZipCode></AddressString>
+  <AddressString><AddressNumber>100</AddressNumber> <StreetName>Gold</StreetName> <StreetNamePostType>Street,</StreetNamePostType> <OccupancyIdentifier>2nd</OccupancyIdentifier> <OccupancyType>Fl.,</OccupancyType> <PlaceName>New</PlaceName> <PlaceName>York,</PlaceName> <StateName>NY</StateName> <ZipCode>10038</ZipCode></AddressString>
+  <AddressString><AddressNumber>59-17</AddressNumber> <StreetName>Junction</StreetName> <StreetNamePostType>Boulevard,</StreetNamePostType> <OccupancyIdentifier>17th</OccupancyIdentifier> <OccupancyType>Floor</OccupancyType> <OccupancyType>Conference</OccupancyType> <OccupancyType>Room,</OccupancyType> <PlaceName>Flushing,</PlaceName> <StateName>New</StateName> <StateName>York</StateName></AddressString>
+  <AddressString><AddressNumber>830</AddressNumber> <StreetName>Fifth</StreetName> <StreetNamePostType>Avenue,</StreetNamePostType> <OccupancyType>Room</OccupancyType> <OccupancyIdentifier>313,</OccupancyIdentifier> <PlaceName>New</PlaceName> <PlaceName>York,</PlaceName> <StateName>NY</StateName> <ZipCode>10065</ZipCode></AddressString>
+  <AddressString><AddressNumber>10</AddressNumber> <StreetNamePreType>Country</StreetNamePreType> <StreetNamePreType>Road</StreetNamePreType> <StreetName>3668</StreetName> <PlaceName>Splendora</PlaceName> <StateName>TX</StateName> <ZipCode>77372</ZipCode></AddressString>
+  <AddressString><AddressNumber>1954</AddressNumber> <StreetNamePreType>Country</StreetNamePreType> <StreetNamePreType>Road</StreetNamePreType> <StreetName>43</StreetName> <PlaceName>Greenville</PlaceName> <StateName>TX</StateName> <ZipCode>75401</ZipCode></AddressString>
+  <AddressString><AddressNumber>3419</AddressNumber> <StreetName>SAINT</StreetName> <StreetName>JOHN</StreetName> <StreetNamePostDirectional>W</StreetNamePostDirectional> <StreetNamePostType>ST</StreetNamePostType></AddressString>
+  <AddressString><AddressNumber>3301</AddressNumber> <StreetName>NEW</StreetName> <StreetName>MEXICO</StreetName> <StreetNamePostDirectional>NW</StreetNamePostDirectional> <StreetNamePostType>AV</StreetNamePostType></AddressString>
+  <AddressString><AddressNumber>2802</AddressNumber> <StreetName>BALLAST</StreetName> <StreetName>PT</StreetName> <StreetNamePostDirectional>W</StreetNamePostDirectional> <StreetNamePostType>BLVD</StreetNamePostType></AddressString>
+  <AddressString><AddressNumber>2350</AddressNumber> <StreetName>WASHINGTON</StreetName> <StreetNamePostDirectional>NE</StreetNamePostDirectional> <StreetNamePostType>PL</StreetNamePostType></AddressString>
+  <AddressString><AddressNumber>10</AddressNumber> <StreetName>POLLY</StreetName> <StreetName>DRUMMOND</StreetName> <StreetNamePostType>CTR</StreetNamePostType></AddressString>
+  <AddressString><USPSBoxType>PO</USPSBoxType> <USPSBoxType>Box</USPSBoxType> <USPSBoxID>9580</USPSBoxID> <PlaceName>Rancho</PlaceName> <PlaceName>Santa</PlaceName> <PlaceName>Fe</PlaceName> <StateName>CA</StateName> <ZipCode>92067</ZipCode></AddressString>
+  <AddressString><AddressNumber>123</AddressNumber> <StreetNamePreDirectional>E</StreetNamePreDirectional> <StreetName>Marcy</StreetName> <StreetNamePostType>St</StreetNamePostType> <OccupancyType>Ste</OccupancyType> <OccupancyIdentifier>201</OccupancyIdentifier> <PlaceName>Santa</PlaceName> <PlaceName>Fe</PlaceName> <StateName>NM</StateName> <ZipCode>87501</ZipCode></AddressString>
+  <AddressString><AddressNumber>130</AddressNumber> <StreetName>Grant</StreetName> <StreetNamePostType>Ave</StreetNamePostType> <OccupancyType>Ste</OccupancyType> <OccupancyIdentifier>203</OccupancyIdentifier> <PlaceName>Santa</PlaceName> <PlaceName>Fe</PlaceName> <StateName>NM</StateName> <ZipCode>87501</ZipCode></AddressString>
+  <AddressString><AddressNumber>12631</AddressNumber> <StreetName>Imperial</StreetName> <StreetNamePostType>Hgwy</StreetNamePostType> <PlaceName>Santa</PlaceName> <PlaceName>Fe</PlaceName> <StateName>CA</StateName> <ZipCode>90670</ZipCode></AddressString>
+  <AddressString><AddressNumber>1000</AddressNumber> <StreetName>Cordova</StreetName> <StreetNamePostType>Place,</StreetNamePostType> <OccupancyIdentifier>#</OccupancyIdentifier> <OccupancyIdentifier>234</OccupancyIdentifier> <PlaceName>Santa</PlaceName> <PlaceName>Fe</PlaceName> <StateName>NM</StateName> <ZipCode>87505</ZipCode></AddressString>
+</AddressCollection>

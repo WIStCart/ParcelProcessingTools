@@ -1,0 +1,41 @@
+# Import arcpy module
+import arcpy
+import re
+import os
+from arcpy import env
+
+# Developed By Angie Limbach, Spring 2014 for the LinkWISCONSIN Address Point and Parcel Mapping Project
+# Contributions By Codie See and Mitch Johnson, Summer 2015 for the V1 and V2 Wisconsin Statewide Parcel Initiative projects
+# Local variables:
+in_fc = arcpy.GetParameterAsText(0)  #Input Feature Class
+sum_table = arcpy.GetParameterAsText(1) #Input summary table
+in_field = arcpy.GetParameterAsText(2)  #This is the input field to complete the join with
+join_field = arcpy.GetParameterAsText(3) #field that's joining up with in_field
+field_list = arcpy.GetParameterAsText(4) #field that is needed to do the calculation after the join...need to find a way to put[]'s on it
+output_fc = arcpy.GetParameterAsText(5)
+arcpy.Delete_management("in_memory")
+arcpy.AddMessage("WRITING TO MEMORY")
+arcpy.FeatureClassToFeatureClass_conversion(in_fc, "in_memory", "IN_MEM_PARCELS")
+field_list1 =("!"+str(field_list)+"!") #need to make the object into a string
+old_field1 = ("!"+str(join_field)+"!")
+arcpy.AddMessage("BEGINNING SCRIPT")
+# Process: Join Field
+arcpy.JoinField_management("in_memory\\IN_MEM_PARCELS", in_field, sum_table, join_field, field_list)
+
+arcpy.AddMessage(field_list) 
+arcpy.AddMessage("BEGINNING FIELD CALCULATION")
+# Add a new field to hold the results, name it the same as it was in the table.
+arcpy.AddField_management("in_memory\\IN_MEM_PARCELS", in_field+"_ST2", "TEXT", "", "", 100)
+# Process: Calculate Field
+arcpy.CalculateField_management("in_memory\\IN_MEM_PARCELS", in_field+"_ST2", "testIt( "+field_list1+", "+old_field1+" )", "PYTHON", "def testIt(xyz, abc):\\n   if xyz is None:\\n      return abc\\n   else:\\n      return xyz")
+arcpy.AddMessage("DELETING EXCESS FIELDS")
+# Process: Delete Field
+arcpy.DeleteField_management("in_memory\\IN_MEM_PARCELS", field_list)
+arcpy.AddMessage("WRITING OUTPUT FC")
+arcpy.FeatureClassToFeatureClass_conversion("in_memory\\IN_MEM_PARCELS", os.path.dirname(in_fc), output_fc)
+arcpy.AddMessage("DELETING IN_MEMORY ... almost done!!")
+arcpy.Delete_management("in_memory")
+
+
+
+

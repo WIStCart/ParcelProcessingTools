@@ -1,0 +1,13 @@
+pycrfsuite/_dumpparser.py,sha256=g2rAOuE12mn3ZZrq_kCQTtZ0AD3WKMPthpGWGfPZF50,2568
+pycrfsuite/_logparser.py,sha256=jgMyzMYjA5YkUPPLwslzaZ9Oh2z9jW252ZF6qSL8Ar0,5832
+pycrfsuite/_pycrfsuite.pyd,sha256=OinfnfR5C2IrQtdC4ORjgb43MsAZ_h_lO5__OkkL5bY,226816
+pycrfsuite/__init__.py,sha256=_tzbaOol8LmKIE1oyb2YKZmn4sczWxh0kYmd3hNGB6U,66
+python_crfsuite-0.8.3.dist-info/DESCRIPTION.rst,sha256=IRTMfVib8eV5RjD570bzQMgYRaLZBGQGUzolynhLQks,1950
+python_crfsuite-0.8.3.dist-info/METADATA,sha256=DFlNCLgeDeXIENJLi0x0I4aPNVvBPBdyUFX-wqQizJM,3173
+python_crfsuite-0.8.3.dist-info/metadata.json,sha256=0NyU3QlnA0NWZEagTq67mRdG6aERe4wjmzEce1f1b-c,1148
+python_crfsuite-0.8.3.dist-info/RECORD,,
+python_crfsuite-0.8.3.dist-info/top_level.txt,sha256=zWZ9NH9khSnBsKz-xg1FH2x6luHD2J5x0PBHyICPcFM,11
+python_crfsuite-0.8.3.dist-info/WHEEL,sha256=RCMp6DeEEjNUvocw4DQU4WAmrPUGbd5taVLpTmGIQD0,101
+pycrfsuite/_logparser.pyc,,
+pycrfsuite/__init__.pyc,,
+pycrfsuite/_dumpparser.pyc,,

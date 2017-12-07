@@ -1,0 +1,65 @@
+<AddressCollection>
+	<AddressString>
+		<StreetName>OAK RIDGE</StreetName>
+		<StreetNamePostType>DR</StreetNamePostType>
+		<OccupancyType>UNIT</OccupancyType>
+		<OccupancyIdentifier>B</OccupancyIdentifier>
+		<PlaceName>LOT</PlaceName>
+		<PlaceName>4</PlaceName>
+	</AddressString>
+	<AddressString>
+		<StreetName>OAK RIDGE</StreetName>
+		<StreetNamePostType>DR</StreetNamePostType>
+		<OccupancyType>UNIT</OccupancyType>
+		<OccupancyIdentifier>A</OccupancyIdentifier>
+		<PlaceName>LOT</PlaceName>
+		<PlaceName>3</PlaceName>
+	</AddressString>
+	<AddressString>
+		<StreetName>OAK RIDGE</StreetName>
+		<StreetNamePostType>DR</StreetNamePostType>
+		<OccupancyType>UNIT</OccupancyType>
+		<OccupancyIdentifier>B</OccupancyIdentifier>
+		<PlaceName>LOT</PlaceName>
+		<PlaceName>3</PlaceName>
+	</AddressString>
+	<AddressString>
+		<StreetNamePreType>ST</StreetNamePreType>
+		<StreetNamePreType>HWY</StreetNamePreType>
+		<StreetName>13</StreetName>
+	</AddressString>
+	<AddressString>
+		<StreetNamePreType>ST</StreetNamePreType>
+		<StreetNamePreType>HWY</StreetNamePreType>
+		<StreetName>13</StreetName>
+	</AddressString>
+	<AddressString>
+		<StreetNamePreType>ST</StreetNamePreType>
+		<StreetNamePreType>HWY</StreetNamePreType>
+		<StreetName>27</StreetName>
+	</AddressString>
+	<AddressString>
+		<AddressNumber>19390</AddressNumber>
+		<StreetName>MOUNTAIN</StreetName>
+		<StreetName>ASH</StreetName>
+		<PlaceName>EXT</PlaceName>
+	</AddressString>
+	<AddressString>
+		<AddressNumber>19300</AddressNumber>
+		<StreetName>MOUNTAIN</StreetName>
+		<StreetName>ASH</StreetName>
+		<PlaceName>EXT</PlaceName>
+	</AddressString>
+	<AddressString>
+		<AddressNumber>19780</AddressNumber>
+		<StreetName>MOUNTAIN</StreetName>
+		<StreetName>ASH</StreetName>
+		<PlaceName>RD</PlaceName>
+	</AddressString>
+	<AddressString>
+		<AddressNumber>19610</AddressNumber>
+		<StreetName>MOUNTAIN</StreetName>
+		<StreetName>ASH</StreetName>
+		<PlaceName>RD</PlaceName>
+	</AddressString>
+</AddressCollection>

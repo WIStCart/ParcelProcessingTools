@@ -1,0 +1,5 @@
+<AddressCollection>
+<AddressString><AddressNumber>2554</AddressNumber><StreetName>West</StreetName><StreetName>River</StreetName><StreetNamePostType>Road</StreetNamePostType></AddressString>
+<AddressString><AddressNumber>2554</AddressNumber><StreetNamePreDirectional>W</StreetNamePreDirectional><StreetName>River</StreetName><StreetNamePostType>Road</StreetNamePostType></AddressString>
+<AddressString><AddressNumberPrefix>N21W</AddressNumberPrefix><AddressNumber>24315</AddressNumber><StreetName>PARKWAY</StreetName><StreetName>MEADOW</StreetName><StreetNamePostType>Cir</StreetNamePostType><OccupancyType>Unit</OccupancyType><OccupancyIdentifier>B</OccupancyIdentifier></AddressString>
+</AddressCollection>

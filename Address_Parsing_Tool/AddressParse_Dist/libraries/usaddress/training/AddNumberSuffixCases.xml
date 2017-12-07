@@ -1,0 +1,17 @@
+<AddressCollection>
+	<AddressString>
+		<AddressNumber>9825</AddressNumber>
+		<AddressNumberSuffix>1</AddressNumberSuffix>
+		<StreetName>OLD</StreetName>
+		<StreetName>HWY</StreetName>
+		<StreetName>70</StreetName>
+		<StreetNamePostType>RD</StreetNamePostType>
+	</AddressString>
+	<AddressString>
+		<AddressNumber>57</AddressNumber>
+		<AddressNumberSuffix>A</AddressNumberSuffix>
+		<StreetNamePreDirectional>S</StreetNamePreDirectional>
+		<StreetNamePreDirectional>USH</StreetNamePreDirectional>
+		<StreetName>51</StreetName>
+	</AddressString>
+</AddressCollection>

@@ -1,0 +1,637 @@
+<?xml version="1.0"?>
+<AddressCollection>
+<AddressString>
+	<StreetNamePostType>ACCESS</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>ACRES</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>ALLY</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>ALY</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>ANX</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>AV</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>AVE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>AVENUE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>BAY</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>BCH</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>BL</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<AddressNumber>1046</AddressNumber>
+	<StreetName>RIVER</StreetName>
+	<StreetName>PLACE</StreetName>
+	<StreetNamePostType>BL</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>BLF</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>BLVD</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>BND</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>BOULEVARD</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>BR</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>BRG</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>BRK</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>BYP</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CHASE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CI</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<AddressNumber>2277</AddressNumber>
+	<StreetName>GLEN</StreetName>
+	<StreetName>MEADOWS</StreetName>
+	<StreetNamePostType>CI</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<AddressNumber>3500</AddressNumber>
+	<StreetName>BAY</StreetName>
+	<StreetName>HIGHLANDS</StreetName>
+	<StreetNamePostType>CI</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<AddressNumber>7231</AddressNumber>
+	<StreetName>WEST</StreetName>
+	<StreetName>CORTLAND</StreetName>
+	<StreetNamePostType>CI</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CIR</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CIRCLE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CIRE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CIRW</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CL</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CLB</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CLE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CLFS</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CLOSE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CMN</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>COMMONS</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>COR</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CORS</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>COURT</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>COVE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CP</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CPE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CR</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CRES</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CRESCENT</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CREST</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CRK</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CRL</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CRNR</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CROSSING</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CRS</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CRSE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CRST</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CSWY</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CT</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CTH</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CTR</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CURVE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>CV</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>DL</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>DM</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>DR</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>DRIVE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>E</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>E.</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>ECHO</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>END</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>EST</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>EXPY</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>EXT</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>FLD</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>FLDS</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>FLS</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>FRK</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>FRST</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>FT</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>GDNS</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>GERLAND</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>GLEN</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>GLN</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>GRADE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>GRN</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>GRV</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>GTWY</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>HBR</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>HEIGHTS</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>HGHTS</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>HGLDS</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>HGTS</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>HL</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>HLS</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>HOLW</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>HTS</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>HVN</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>HWY</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>IS</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>ISL</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>ISLE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>JCT</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>KNLS</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>KREST</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>LA</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>LA</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<AddressNumber>311</AddressNumber>
+	<StreetNamePreDirectional>E</StreetNamePreDirectional>
+	<StreetName>CROSSING</StreetName>
+	<StreetName>MEADOWS</StreetName>
+	<StreetNamePostType>LA</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>LAND</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>LANDING</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>LANE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>LDG</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>LK</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>LN</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>LNDG</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>LOOP</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>LP</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>MALL</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>MANOR</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>MDW</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>MDWS</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>MEWS</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>ML</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>MLS</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>MNR</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>N</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>N.</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>PARK</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>PARKWAY</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>PA</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>PASS</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>PASSAGE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>PATH</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>PIKE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>PK</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>PKWY</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>PKY</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>PL</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>PLACE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>PLAISANCE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>PLAT</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>PLAZA</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>PLZ</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>PNES</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>POINTE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>PR</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>PSGE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>PT</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>PTE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>PKY</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>PWKY</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>RAD</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>RD</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>RD</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>RDAV</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>RDG</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>RDGE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>RIDG</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>RIDGE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>RISE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>RIV</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>RND</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>ROAD</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>ROW</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>RUE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>RUN</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>RUN</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>RUN</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>RW</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>ST</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>SH</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>SHORES</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>SHR</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>SHRS</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>SMT</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>SPG</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>SPGS</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>SPUR</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>SQ</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>ST</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>STA</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>STH</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>STRE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>STREET</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>STREETS</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>TE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>TER</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>TERR</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>TERRACE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>TPKE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>TR</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>TRACE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>TRAIL</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>TRAILWAY</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>TRAK</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>TRCE</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>TRL</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>TRLS</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>TURN</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>UN</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>VIEW</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>VIS</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>VL</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>VLY</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>VW</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>WALK</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>WAY</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>WEST</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>WY</StreetNamePostType>
+</AddressString>
+<AddressString>
+	<StreetNamePostType>XING</StreetNamePostType>
+</AddressString>
+</AddressCollection>

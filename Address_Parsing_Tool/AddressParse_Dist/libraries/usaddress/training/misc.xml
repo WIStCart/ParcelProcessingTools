@@ -1,0 +1,14 @@
+<AddressCollection>
+	<AddressString>
+		<AddressNumber>3116</AddressNumber>
+		<StreetName>Sandy</StreetName>
+		<StreetName>Hook</StreetName>
+		<StreetNamePostType>RD</StreetNamePostType>
+	</AddressString>
+	<AddressString>
+		<AddressNumber>N933</AddressNumber>
+		<StreetName>Spotted</StreetName>
+		<StreetName>Fawn</StreetName>
+		<StreetNamePostType>Trail</StreetNamePostType>
+	</AddressString>
+</AddressCollection>
