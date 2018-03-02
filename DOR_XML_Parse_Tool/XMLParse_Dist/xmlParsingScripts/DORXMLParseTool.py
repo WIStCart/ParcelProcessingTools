@@ -9,6 +9,7 @@ outDIR = arcpy.GetParameterAsText(1) #raw_input("Output GDB: ")
 outNAME = arcpy.GetParameterAsText(2) #raw_input("Output table name: ")
 cleanChar = arcpy.GetParameterAsText(3)
 replaceChar = arcpy.GetParameterAsText(4)
+recognizeZeroAsCOP = arcpy.GetParameterAsText(5)
 addressFlag = "No Site Address Assigned" #raw_input("Address Flag: ")
 inDir = inDir.replace("\\", "//")
 OUTPUT_TO_USER = ""
@@ -235,7 +236,9 @@ for fname in glob.glob(path):
                     if  tempAcres > 0:
                         COPclasses.append(COPdomains[f])
                         inferredAcreage += tempAcres
-
+                    elif recognizeZeroAsCOP:
+                        COPclasses.append(COPdomains[f])
+                        inferredAcreage += tempAcres
             #Go through alt domains
             for f in range(len(altTaxCOPdomains)):
                 if realProperty.find(nsTag(str(altTaxCOPdomains[f]))) is not None:
@@ -244,7 +247,9 @@ for fname in glob.glob(path):
                     if tempAcres > 0:
                         COPclasses.append(altCOPdomains[f])
                         inferredAcreage += tempAcres
-                        
+                    elif recognizeZeroAsCOP:
+                        COPclasses.append(COPdomains[f])
+                        inferredAcreage += tempAcres                       
             #Sort COPclasses into COP and COPAlt
             COPDomain = ['1','2','3','4','5','5M','6','7']
             COPAltDomain = ['X1','X2','X3','X4','W1','W2','W3','W4','W5','W6','W7','W8']
