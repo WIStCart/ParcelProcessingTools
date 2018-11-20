@@ -11,9 +11,12 @@ altTaxField = arcpy.GetParameterAsText(6)
 linkParcelPINfield = arcpy.GetParameterAsText(7)
 linkTaxPINfield = arcpy.GetParameterAsText(8)
 
+
+
 #Get summary stats for the link table with link PINs > 1
 arcpy.AddMessage("Finding Parcels to Stack...")
 outputStats = outDir + "/" + "Outputstats"
+arcpy.Delete_management(outputStats)
 arcpy.Frequency_analysis(inLink, outputStats, [linkParcelPINfield])
 arcpy.TableToTable_conversion(outputStats, outDir, "OutputstatsTrimmed" , '"Frequency" > ' + str(1))
 arcpy.Delete_management(outputStats)
@@ -30,6 +33,7 @@ arcpy.CalculateField_management(tempClass, newTaxField,"!"+altTaxField+"!", "PYT
 
 #Join summary stats to feature class to get condo parcels
 outputStatsTrim = outDir + "/" + "OutputstatsTrimmed"
+arcpy.Delete_management(outputStatsTrim)
 arcpy.JoinField_management(tempClass, parcelPINfield, outputStatsTrim, linkParcelPINfield)
 
 #Export condo parcels to a separate feature class and export non-condos to the output feature class
