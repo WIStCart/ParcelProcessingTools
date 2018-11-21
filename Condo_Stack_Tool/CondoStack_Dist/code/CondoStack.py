@@ -16,13 +16,14 @@ linkTaxPINfield = arcpy.GetParameterAsText(8)
 #Get summary stats for the link table with link PINs > 1
 arcpy.AddMessage("Finding Parcels to Stack...")
 outputStats = outDir + "/" + "Outputstats"
-arcpy.Delete_management(outputStats)
+arcpy.Delete_management(outputStats) # delete in case it already exists 
 arcpy.Frequency_analysis(inLink, outputStats, [linkParcelPINfield])
 arcpy.TableToTable_conversion(outputStats, outDir, "OutputstatsTrimmed" , '"Frequency" > ' + str(1))
 arcpy.Delete_management(outputStats)
 
 #Make duplicate of parcel feature class
 arcpy.AddMessage("Creating Temporary Feature Class...")
+arcpy.Delete_management(outDir +"/"+ "Temp") # delete in case it already exists 
 arcpy.FeatureClassToFeatureClass_conversion(inParcel, outDir, "Temp")
 tempClass = outDir +"/"+ "Temp"
 
@@ -33,7 +34,6 @@ arcpy.CalculateField_management(tempClass, newTaxField,"!"+altTaxField+"!", "PYT
 
 #Join summary stats to feature class to get condo parcels
 outputStatsTrim = outDir + "/" + "OutputstatsTrimmed"
-arcpy.Delete_management(outputStatsTrim)
 arcpy.JoinField_management(tempClass, parcelPINfield, outputStatsTrim, linkParcelPINfield)
 
 #Export condo parcels to a separate feature class and export non-condos to the output feature class
@@ -49,6 +49,7 @@ else:
 whereClause1 = "" + linkPINfield + " Is Not Null"
 whereClause2 = "" + linkPINfield + " Is Null"
 
+arcpy.Delete_management(condoClass) # delete in case it already exists 
 arcpy.FeatureClassToFeatureClass_conversion(tempClass, outDir, "CondoParcels", whereClause1)
 arcpy.AddMessage("Creating " + outName)
 arcpy.FeatureClassToFeatureClass_conversion(tempClass, outDir, outName, whereClause2)
