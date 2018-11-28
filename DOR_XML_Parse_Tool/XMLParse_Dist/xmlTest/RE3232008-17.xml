@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CountyRolls xmlns="http://www.revenue.wi.gov/slf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.revenue.wi.gov/slf ../CountyRolls.xsd">
+	<FileHeader recordCount="1">
+		<CountyName>32 La Crosse</CountyName>
+		<RollType>RE</RollType>
+		<RollName>Tax</RollName>
+		<TaxYear>2011</TaxYear>
+		<DateTime>2012-02-27T12:59:58</DateTime>
+		<ProcessType>TEST</ProcessType>
+		<Contact>
+			<Name>Test Contact</Name>
+			<Phone>6081234567</Phone>
+			<Email>t.contact@test.gov</Email>
+		</Contact>
+		<AckAddress>t.contact@test.gov</AckAddress>
+	</FileHeader>
+	<Municipality>
+		<MunicipalityNumber>32008</MunicipalityNumber>
+		<Item>
+			<RecordNumber>1</RecordNumber>
+			<PropertyInfo>
+				<LocalID1>004001285004</LocalID1>
+				<LocalID2/>
+				<ParcelID>000000000</ParcelID>
+				<Town>16</Town>
+				<Range>07</Range>
+				<RangeDirection>E</RangeDirection>
+				<Section>30</Section>
+				<Quarter40>NE</Quarter40>
+				<Quarter160>NE</Quarter160>
+				<Block/>
+				<Legal>ALL ACCRETION LANDS LYGBETWEEN LOTS 10 &amp; 11 &amp; EXTTO S LN OF SEC 30-16-7</Legal>
+				<RecordingDocuments>
+					<Book>01250</Book>
+					<Page>00642</Page>
+				</RecordingDocuments>
+			</PropertyInfo>
+			<OwnerAndAddressInfo>
+				<MailingAddress>
+					<USAddress>
+						<AddressLine1>1 FEDERAL DR</AddressLine1>
+						<AddressLine2>FORT SNELLING MN 55111-4056</AddressLine2>
+						<City>unknown</City>
+						<State>WI</State>
+						<ZIPCode>00000</ZIPCode>
+					</USAddress>
+				</MailingAddress>
+				<Owner>
+					<Business>
+						<Name>
+							<BusinessNameLine1>USA SCHNICK</BusinessNameLine1>
+						</Name>
+						<Address>
+							<USAddress>
+								<AddressLine1>1 FEDERAL DR</AddressLine1>
+								<City>unknown</City>
+								<State>WI</State>
+								<ZIPCode>00000</ZIPCode>
+							</USAddress>
+						</Address>
+					</Business>
+				</Owner>
+				<NoPhysicalAddress>X</NoPhysicalAddress>
+			</OwnerAndAddressInfo>
+			<ValuationInfo>
+				<RealProperty>
+					<ExemptFederalAcres>41.9</ExemptFederalAcres>
+					<ExemptStateAcres>0</ExemptStateAcres>
+					<ExemptCountyAcres>0</ExemptCountyAcres>
+					<ExemptOtherAcres>0</ExemptOtherAcres>
+					<CountyForestCropLand>0</CountyForestCropLand>
+					<PFCRegularClass1>
+						<Acres>0</Acres>
+						<Value>0</Value>
+					</PFCRegularClass1>
+					<PFCRegularClass2>
+						<Acres>0</Acres>
+						<Value>0</Value>
+					</PFCRegularClass2>
+					<PFCSpecialClass>
+						<Acres>0</Acres>
+						<Value>0</Value>
+					</PFCSpecialClass>
+					<MFLBefore2005Open>
+						<Acres>0</Acres>
+						<Value>32</Value>
+					</MFLBefore2005Open>
+					<MFLBefore2005Closed>
+						<Acres>0</Acres>
+						<Value>0</Value>
+					</MFLBefore2005Closed>
+					<MFLAfter2004Open>
+						<Acres>0</Acres>
+						<Value>0</Value>
+					</MFLAfter2004Open>
+					<MFLAfter2004Closed>
+						<Acres>0</Acres>
+						<Value>0</Value>
+					</MFLAfter2004Closed>
+					<ClassTotal>
+						<Acres>41.9</Acres>
+						<LandValue>0</LandValue>
+						<ImprovementsValue>0</ImprovementsValue>
+					</ClassTotal>
+				</RealProperty>
+			</ValuationInfo>
+			<JurisdictionInfo>
+				<County>
+					<CountyName>32 La Crosse</CountyName>
+					<CountyRate>0</CountyRate>
+					<CountyTax>0</CountyTax>
+				</County>
+				<Municipality>
+					<MuniName>Town of Campbell</MuniName>
+					<MuniNumber>32008</MuniNumber>
+					<MunicipalRate>0</MunicipalRate>
+					<MunicipalTax>0</MunicipalTax>
+				</Municipality>
+				<School>
+					<Code>002849</Code>
+					<Rate>0</Rate>
+					<Tax>0</Tax>
+				</School>
+				<UnionHS>
+					<Code>000000</Code>
+					<Rate>0</Rate>
+					<Tax>0</Tax>
+				</UnionHS>
+				<Tech>
+					<Code>000000</Code>
+					<Rate>0</Rate>
+					<Tax>0</Tax>
+				</Tech>
+				<SpecialDistrict>
+					<Code>038020</Code>
+					<Rate>0</Rate>
+					<Tax>0</Tax>
+				</SpecialDistrict>
+				<TID>
+					<TypeTID>3</TypeTID>
+					<TIDCode>123M</TIDCode>
+				</TID>
+			</JurisdictionInfo>
+			<TaxSummary>
+				<LandTaxableTotal>0</LandTaxableTotal>
+				<ImprovementsTaxableTotal>0</ImprovementsTaxableTotal>
+				<TotalTaxableValue>0</TotalTaxableValue>
+				<TaxTotal>0</TaxTotal>
+				<SpecialAssessment>
+					<SpecialAssessmentDesc>Special description one</SpecialAssessmentDesc>
+					<SpecialAssessmentCharge>123</SpecialAssessmentCharge>
+				</SpecialAssessment>
+				<SpecialAssessment>
+					<SpecialAssessmentDesc>Special description two</SpecialAssessmentDesc>
+					<SpecialAssessmentCharge>321</SpecialAssessmentCharge>
+				</SpecialAssessment>
+				<NetTax>0</NetTax>
+			</TaxSummary>
+		</Item>
+	</Municipality>
+</CountyRolls>
