@@ -248,8 +248,8 @@ for fname in glob.glob(path):
                         COPclasses.append(altCOPdomains[f])
                         inferredAcreage += tempAcres
                     elif recognizeZeroAsCOP:
-                        COPclasses.append(altCOPdomains[f])
-                        inferredAcreage += tempAcres                      
+                        COPclasses.append(COPdomains[f])
+                        inferredAcreage += tempAcres                       
             #Sort COPclasses into COP and COPAlt
             COPDomain = ['1','2','3','4','5','5M','6','7']
             COPAltDomain = ['X1','X2','X3','X4','W1','W2','W3','W4','W5','W6','W7','W8']
