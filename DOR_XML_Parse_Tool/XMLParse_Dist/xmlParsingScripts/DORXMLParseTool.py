@@ -10,6 +10,7 @@ outNAME = arcpy.GetParameterAsText(2) #raw_input("Output table name: ")
 cleanChar = arcpy.GetParameterAsText(3)
 replaceChar = arcpy.GetParameterAsText(4)
 recognizeZeroAsCOP = arcpy.GetParameterAsText(5)
+recognizeZeroAsAUXCOP = arcpy.GetParameterAsText(6)
 addressFlag = "No Site Address Assigned" #raw_input("Address Flag: ")
 inDir = inDir.replace("\\", "//")
 OUTPUT_TO_USER = ""
@@ -236,7 +237,7 @@ for fname in glob.glob(path):
                     if  tempAcres > 0:
                         COPclasses.append(COPdomains[f])
                         inferredAcreage += tempAcres
-                    elif recognizeZeroAsCOP:
+                    elif recognizeZeroAsCOP == 'true':
                         COPclasses.append(COPdomains[f])
                         inferredAcreage += tempAcres
             #Go through alt domains
@@ -247,8 +248,8 @@ for fname in glob.glob(path):
                     if tempAcres > 0:
                         COPclasses.append(altCOPdomains[f])
                         inferredAcreage += tempAcres
-                    elif recognizeZeroAsCOP:
-                        COPclasses.append(COPdomains[f])
+                    elif recognizeZeroAsAUXCOP == 'true':
+                        COPclasses.append(altCOPdomains[f])
                         inferredAcreage += tempAcres                       
             #Sort COPclasses into COP and COPAlt
             COPDomain = ['1','2','3','4','5','5M','6','7']
