@@ -30,12 +30,12 @@ writer = csv.writer(outFile,quoting=csv.QUOTE_ALL)
 headerSchema = ['TAXPARCELID Text Width 100', 'TAXPARCELID_CLEANED Text Width 100','TAXPARCELID_2 Text Width 100','PARCELID Text Width 100','TAXROLLYEAR Text Width 10','SITEADRESS Text Width 200',\
           'SITEADRESS_2 Text Width 200','SITEADRESS_FULL Text Width 200','PLACENAME Text Width 100','STATE Text Width 50','ZIPCODE Text Width 50','OWNERNME1 Text Width 254',\
           'OWNERNME2 Text Width 254','PSTLADRESS Text Width 200','PROPCLASS Text Width 150','AUXCLASS Text Width 150','CONAME Text Width 50','MUNINAME Text Width 100','MUNIFIPS Text Width 50',\
-          'SCHOOLDISTNO Text Width 50','LNDVALUE Text Width 50','IMPVALUE Text Width 50','CNTASSDVALUE Text Width 50','ESTFMKVALUE Text Width 50',\
+          'SCHOOLDISTNO Text Width 50','LNDVALUE Text Width 50','IMPVALUE Text Width 50','CNTASSDVALUE Text Width 50','MFLVALUE Text Width 50','ESTFMKVALUE Text Width 50',\
           'GRSPRPTA Text Width 50','NETPRPTA Text Width 50', 'INFERREDACREAGE Text Width 50']
 header = ['TAXPARCELID', 'TAXPARCELID_CLEANED','TAXPARCELID_2','PARCELID','TAXROLLYEAR','SITEADRESS',\
           'SITEADRESS_2','SITEADRESS_FULL','PLACENAME','STATE','ZIPCODE','OWNERNME1',\
           'OWNERNME2','PSTLADRESS','PROPCLASS','AUXCLASS','CONAME','MUNINAME','MUNIFIPS',\
-          'SCHOOLDISTNO','LNDVALUE','IMPVALUE','CNTASSDVALUE','ESTFMKVALUE',\
+          'SCHOOLDISTNO','LNDVALUE','IMPVALUE','CNTASSDVALUE','MFLVALUE','ESTFMKVALUE',\
           'GRSPRPTA','NETPRPTA', 'INFERREDACREAGE']
 
 writer.writerow(header)
@@ -61,16 +61,16 @@ print "Processing XML"
 #Loop through all xmls in directory
 path = str(inDir)+'//*.xml'
 #arcpy.AddMessage(path)
-for fname in glob.glob(path):    
+for fname in glob.glob(path):
     arcpy.AddMessage("Processing: "+ fname)
     # Open current XML document
     tree = ET.parse(str(fname))
     root = tree.getroot()
     fileHeader = root.find(nsTag('FileHeader'))
     taxYear = fileHeader.find(nsTag('TaxYear')).text
-    
+
     record = 0
-    
+
     #Loop through all records in this XML document
     for item in tree.iter(tag=nsTag("Item")):
         # Skip over record with personal property
@@ -99,9 +99,9 @@ for fname in glob.glob(path):
             mailAddressFull = ''
             mailAddressCity = ''
             mailAddressState = ''
-            mailAddressZIP = ''           
-            mailAddressPC = ''           
-            mailAddressCountry = ''           
+            mailAddressZIP = ''
+            mailAddressPC = ''
+            mailAddressCountry = ''
             if ownerAndAddressInfo.find(nsTag('MailingAddress')) is not None:
                 MailAddress = ownerAndAddressInfo.find(nsTag('MailingAddress'))
                 if MailAddress.find(nsTag('USAddress')) is not None:
@@ -148,7 +148,7 @@ for fname in glob.glob(path):
                             mailAddressCountry = foreignAddress.find(nsTag('Country')).text
                             mailAddressFull = mailAddressFull + ", " + mailAddressCountry
                         mailingAddress = mailAddressFull
-                #mailingAddress = ','.join(eList2Str(foreignAddress.getchildren()))  
+                #mailingAddress = ','.join(eList2Str(foreignAddress.getchildren()))
             #Get Property Address
             propertyAddress1 = ''
             propertyAddress2 = ''
@@ -212,10 +212,10 @@ for fname in glob.glob(path):
                     name = combinedName[0].text
                     ownerNames.append(name)
                 ownerNames.append('')
-                
+
             #Get Valuation info
             valuationInfo = item.find(nsTag('ValuationInfo'))
-            
+
             #Get COPs for this record
             realProperty = valuationInfo.find(nsTag('RealProperty'))
             COPclasses = list()
@@ -227,7 +227,13 @@ for fname in glob.glob(path):
             'PFCRegularClass1','PFCRegularClass2','PFCSpecialClass','MFLAfter2004Open',\
             'MFLAfter2004Closed','MFLBefore2005Open','MFLBefore2005Closed']
             COPdomains = ['1','2','3','4','5','5M','6','7','W1','W2','W3','W5','W6','W7','W8']
+            COPmflDomain = ['PFCRegularClass1','PFCRegularClass2','PFCSpecialClass','MFLAfter2004Open',\
+            'MFLAfter2004Closed','MFLBefore2005Open','MFLBefore2005Closed']
             inferredAcreage = 0
+            mflValue = ''
+            tempValue = 0
+            countW = 0
+
         #Go through cop domains
             for f in range(len(taxCOPdomains)):
                 if realProperty.find(nsTag(str(taxCOPdomains[f]))) is not None:
@@ -240,6 +246,15 @@ for fname in glob.glob(path):
                     elif recognizeZeroAsCOP == 'true':
                         COPclasses.append(COPdomains[f])
                         inferredAcreage += tempAcres
+                    if propertyClass.find(nsTag('Value')) is not None:
+                        value = propertyClass.find(nsTag('Value'))
+                        value = float(value.text)
+                        countW += 1
+                        if  value > 0:
+                            tempValue  += value
+            if countW > 0 :
+                mflValue = tempValue
+
             #Go through alt domains
             for f in range(len(altTaxCOPdomains)):
                 if realProperty.find(nsTag(str(altTaxCOPdomains[f]))) is not None:
@@ -250,7 +265,7 @@ for fname in glob.glob(path):
                         inferredAcreage += tempAcres
                     elif recognizeZeroAsAUXCOP == 'true':
                         COPclasses.append(altCOPdomains[f])
-                        inferredAcreage += tempAcres                       
+                        inferredAcreage += tempAcres
             #Sort COPclasses into COP and COPAlt
             COPDomain = ['1','2','3','4','5','5M','6','7']
             COPAltDomain = ['X1','X2','X3','X4','W1','W2','W3','W4','W5','W6','W7','W8']
@@ -261,7 +276,7 @@ for fname in glob.glob(path):
                 for k in range(len(COPAltDomain)):
                     if COPclasses[i] == str(COPAltDomain[k]):
                         COPALT.append(COPclasses[i])
-                        
+
             #Create total COP and COPALT fields
             if len(COP) > 0:
                 totalCOP = ','.join(COP)
@@ -271,7 +286,7 @@ for fname in glob.glob(path):
                 totalAltCOP = ','.join(COPALT)
             else:
                 totalAltCOP = ''
-            
+
             #Get Jurisdiction info
             jurisdictionInfo = item.find(nsTag('JurisdictionInfo'))
             county = jurisdictionInfo.find(nsTag('County'))
@@ -284,6 +299,7 @@ for fname in glob.glob(path):
                 muniName = ''
             school = jurisdictionInfo.find(nsTag('School'))
             schoolCode = school.find(nsTag('Code')).text
+
 
             #Get tax summary
             if item.find(nsTag('TaxSummary')) is not None:
@@ -311,8 +327,8 @@ for fname in glob.glob(path):
                 totalTaxableValue = ''
                 totalTax = ''
                 netTax = ''
-                
-            
+
+
             #Assemble current row and write to csv
             row = list()
             row.append(localID)
@@ -338,12 +354,13 @@ for fname in glob.glob(path):
             row.append(totalTaxableLand)
             row.append(totalTaxableImprovements)
             row.append(totalTaxableValue)
+            row.append(str(mflValue))
             row.append(fairMarketValue)
             row.append(totalTax)
             row.append(netTax)
             row.append (str(inferredAcreage))
             writer.writerow(row)
-            item.clear() 
+            item.clear()
 outFile.close()
 outSchema.close()
 arcpy.AddMessage("Finished processing XML, now creating DBF")
